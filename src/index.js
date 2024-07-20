@@ -45,6 +45,8 @@ app.get("/", ( req, res ) => {
   res.send("Hi\n Visits: " + req.session.count)
 })
 
+
+//* This Part Was Literally made in 5 minutes. please dont bully :)
 users = {}
 
 app.get("/auth/:user/:pass", ( req, res ) => {
